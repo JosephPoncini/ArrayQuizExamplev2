@@ -46,12 +46,12 @@ const GetAnswer2 = data => {
     counter = 0;
 
     data.forEach( x => {
-        if(x.age >= 21){
+        if(x.Active){
             counter++;
         }
     })
 
-    Answer2.innerText = `There are ${counter} people who can legally drink alcohol.`;
+    Answer2.innerText = `There are ${counter} people active.`;
 }
 
 const GetAnswer3 = data => {

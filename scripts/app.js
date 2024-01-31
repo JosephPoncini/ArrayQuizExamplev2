@@ -58,12 +58,12 @@ const GetAnswer3 = data => {
     counter = 0;
 
     data.forEach( x => {
-        if(parseInt(x.height) > 65){
+        if(parseInt(x.height) < 70){
             counter++;
         }
     })
 
-    Answer3.innerText = `There are ${counter} people taller than 5'5.`;
+    Answer3.innerText = `There are ${counter} people shorter than 6'0.`;
 }
 
 const GetAnswer4 = data => {

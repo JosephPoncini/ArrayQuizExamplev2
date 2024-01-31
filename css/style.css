@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Satisfy";
+    src: url("../fonts/Satisfy-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+.bg{
+    background-color: thistle;
+}
+
+.i{
+    font-style: italic;
+}
+
+.answer{
+    font-family: "Satisfy";
+}
+
+.extraCredit{
+    font-family: "Roboto-Regular";
+}
